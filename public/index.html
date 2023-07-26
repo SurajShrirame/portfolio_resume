@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <style>
+        table, th, td {
+            border: 5px solid black;
+            border-collapse: collapse;
+             }
+             nav.sticky {
+               position: sticky;
+               top: 0px;
+               padding: 5px;
+               background-color: rgb(89, 2, 76);
+               border: 2px black;
+               
+             }
+             section.box{
+                height: auto;
+                width: 1470px;
+                margin-left: -15px;
+             }
+             footer{
+                margin-left: -15px;
+                width: 1470px;
+             }
+    </style>
+</head>
+<body class="container-fluid" style="background: url('../public/Images/background.jpg'); background-repeat: no-repeat; background-size: 100%; ">
+    <header class="mt-3 mb-3 text-white text-center">
+        <h1><b>Welcome to My Portfolio</b></h1>
+    </header>
+    <nav class="sticky">
+            <div class="d-flex text-white">
+                <div class="col-7">
+                    <span><h2>SURAJ SHRIRAME</h2></span>
+                    
+                </div>
+                <div class="btn-group ms-5">
+                    <a class="btn btn-danger fs-5 bi bi-person-fill" href="#about"> About</a>
+                    <a class="btn btn-danger fs-5 text-white bi bi-book-fill" href="#education"> Education</a>
+                    <a class="btn btn-danger fs-5 text-white bi bi-pc-display-horizontal" href="#project"> Projects</a>
+                    <a class="btn btn-danger fs-5 text-white bi bi-telephone-fill" href="#contact"> Contact US</a>
+                </div>
+            </div>
+    </nav>
+
+    <main style="margin-top: 30px;">
+        <section id="about">
+            <div class="row">
+                <div class="col-3">
+                    <h1 style="color:rgb(250, 112, 112); text-align: center;">About Me</h1>
+                 </div>
+                 <div class="col-9">
+                    <br><br>
+                    <p class="mb-5 ms-5 me-5 text-white fs-2">
+                        I am Suraj Shrirame an aspiring REACT, ANGULAR  and  UI Learning fresher who
+                         is trying to seek a role to enhance and explore my technical knowledge in your company.
+                    </p>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h2 style="color:rgb(250, 112, 112);">CAREER OBJECTIVE</h2>
+                </div>
+                <div class="col-9">
+                    <br><br>
+                    <p class="mb-5 ms-5 me-5 text-center text-white fs-2">
+                        I want to be a part of renewed organization & to contribute 
+                        towards the growth of the organization based on my personal 
+                       capabilities by learning from the new exposure within the 
+                      structured frame of work.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                   <div style="text-align: center;">
+                    <button class="btn btn-success" onclick="document.location='../public/Images/Resume.pdf'">
+                        Resume Download &nbsp;<span class="bi bi-download"></span>  
+                    </button>
+                   </div>
+            </div>
+        </section>
+        <section id="education" class="bg-danger-subtle box">
+            <div class="row mt-5" style="margin-left: 20px;">
+                <div class="col-3" >
+                    <h1 style="color:rgb(250, 112, 112);" class="mt-5">Educational Qualification</h1> 
+                </div>
+                <div class="col-9">
+                    <br><br>
+                    <p class="mb-5 ms-5 me-5 text-center text-dark fs-2">
+                        <ul>
+                            <h4><li>MCA in 2022 with Distiction '8.88' CGPA (10)</li>
+                                <li>B.Sc in 2020 (IT) with Distiction '7.61' CGPA (10)</li>
+                                <li>HSC in 2017 bord with Distiction '60.46%'</li>
+                                <li>CBSE in 2015 board with Distiction '8.4' CGPA (10)</li>
+                            </h4>
+                        </ul>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="row mt-5" style="margin-left: 20px;">
+                <div class="col-3">
+                    <h1 style="color:rgb(250, 112, 112);">Technical Summary</h1>
+                </div>
+                <div class="col-9">
+                    <br><br>
+                    <table class="mb-5 ms-5 me-5 text-center text-dark fs-2 " style="border: 5px;">
+                        <tr>
+                            <th>Tools :</th>
+                            <td>Javascript, Typescript, Bootstrap, Jquery, React, Angular, Githube, Farebase cloud, Vsual studio code and Eclipse</td>
+                        </tr>
+                        <tr>
+                            <th>Platform :</th>
+                            <td>windows 7, 8, 8.1 and 10</td>
+                        </tr>
+                        <tr>
+                            <th>Other :</th>
+                            <td>c, c++, core java, HTML and CSS</td>
+                        </tr>
+                     </table>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="bg-info box" >
+             <div class="row" style="margin-left: 20px;">
+                <div class="col-3">
+                    <h1 style="color:rgb(250, 112, 112);" class="mt-5">Projects</h1> 
+                <div>
+                <div class="col-9 mb-5">
+                    <span class="btn btn-success"> UI/UX </span>
+                    <span class="btn btn-success"> React </span>
+                    <span class="btn btn-success"> Angular </span>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <footer style="padding: 30px; background-color: black; color: aliceblue;" id="contact">
+        <h1>Contact US</h1>
+        <div class="d-flex">
+           <div class="col-8">
+              <p class="bi bi-person-fill"> Address: <br> Suraj Shrirame At. post. Antargaon, <br>Ta. Sindewahi, Dist. Chandrapur, <br>Maharastra (441223)</p>
+           </div>
+           <div class="col-4" style="font-size: 50px;">
+                <span class="bi bi-envelope me-3" id="gmial"></span>
+               <span class="bi bi-whatsapp me-3" id="whatsapp"></span>
+               <span class="bi bi-instagram me-3" id="instagram"></span>
+               <span class="bi bi-facebook me-3" id="facebook"></span>
+               <span class="bi bi-twitter me-3" id="twitter"></span>
+           </div>
+        </div>
+    </footer>
+    
+    
+        
+    
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
